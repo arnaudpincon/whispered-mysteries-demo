@@ -1,0 +1,6 @@
+{
+  "name": "Attic",
+  "description": "A dusty storage space filled with old furniture, cobwebs, and forgotten relics.",
+  "exits": ["Landing"],
+  "image": "attic/illustration.jpg"
+}

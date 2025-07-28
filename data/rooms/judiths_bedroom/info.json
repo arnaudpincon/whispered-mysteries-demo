@@ -1,0 +1,13 @@
+{
+  "name": "Judith's Bedroom",
+  "description": "A cozy bedroom with floral wallpaper, a canopy bed, and a fireplace — now tainted by a chilling stillness, as the lifeless body of a young woman rests on the bed.",
+  "exits": [
+    "Landing",
+    "Edgar's Bedroom",
+    "Margarett's Bedroom",
+    "Guest's Bedroom",
+    "Grand Bathroom",
+    "Master Bedroom"
+  ],
+  "image": "judiths_bedroom/illustration.jpg"
+}

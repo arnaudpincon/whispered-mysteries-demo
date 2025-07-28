@@ -1,0 +1,6 @@
+{
+  "name": "Dining Room",
+  "description": "A formal dining area with a long mahogany table, ornate candelabras, and a display cabinet.",
+  "exits": ["Main Hall", "Kitchen"],
+  "image": "dining_room/illustration.jpg"
+}

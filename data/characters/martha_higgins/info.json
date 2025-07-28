@@ -1,0 +1,25 @@
+{
+  "name": "Martha Higgins",
+  "role": "Governess and long-time servant of the Blackwood family, privy to many household secrets. Recently dismissed by Lady Blackwood but still present in the manor.",
+  "description": "She has short, dark, wavy hair with some grey, and a subdued expression. She wears a dark, high-collared top with pleats, and a practical apron-like garment.",
+  "traits": ["observant"],
+  "possible_locations": [
+    "Kitchen",
+    "Servant's Quarters",
+    "Dining Room",
+    "Cellar"
+  ],
+  "image_url": "martha_higgins/portrait.jpg",
+  "prompt_file": "prompt_memory.md",
+  "information_to_disclose": [
+    "Lady Blackwood dismissed me abruptly. I still don't understand why.",
+    "The house has many secrets. I heard things...",
+    "Lord Blackwood was strict, but he kept order in the house.",
+    "Lady Blackwood was kind, but she was easily swayed.",
+    "Margarett Holloway ruled her son's life with an iron fist.",
+    "Edgar was an intelligent boy, but deeply troubled.",
+    "Victor Langley was devoted to Judith. He was willing to risk everything for her.",
+    "Arthur Cavendish did not love Judith. He loved her status.",
+    "Inspector Ferdinand is more observant than he lets on."
+  ]
+}

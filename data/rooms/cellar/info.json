@@ -1,0 +1,6 @@
+{
+  "name": "Cellar",
+  "description": "A dark, damp basement lined with wine racks, aging barrels, and mysterious locked crates.",
+  "exits": ["Kitchen"],
+  "image": "cellar/illustration.jpg"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Master's Study",
+  "description": "A private office with towering bookshelves, a heavy oak desk, and an antique globe.",
+  "exits": ["Main Salon", "Library"],
+  "image": "master_study/illustration.jpg"
+}

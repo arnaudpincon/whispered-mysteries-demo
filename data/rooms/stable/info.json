@@ -1,0 +1,6 @@
+{
+  "name": "Stable",
+  "description": "A stone-built stable housing fine horses, complete with saddles and an adjacent tack room.",
+  "exits": ["Main Hall", "Servant's Quarters"],
+  "image": "stable/illustration.jpg"
+}

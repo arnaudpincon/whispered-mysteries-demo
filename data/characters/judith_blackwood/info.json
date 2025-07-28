@@ -1,0 +1,11 @@
+{
+  "name": "Judith Blackwood",
+  "role": "The tragic victim of Blackwood Manor, a young woman caught between family expectations and personal desires.",
+  "description": "The pale, lifeless body of a young woman in her early twenties. Her skin has the waxy pallor typical of death, and rigor mortis is beginning to set in, indicating she died approximately 6-7 hours ago.",
+  "traits": ["dead", "dead", "dead"],
+  "possible_locations": ["Judith's Bedroom"],
+  "image_url": "judith_blackwood/portrait.jpg",
+  "prompt_file": "prompt_memory.md",
+  "information_to_disclose": [],
+  "status": "dead"
+}

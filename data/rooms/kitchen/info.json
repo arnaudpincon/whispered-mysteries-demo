@@ -1,0 +1,6 @@
+{
+  "name": "Kitchen",
+  "description": "A rustic yet functional kitchen with a cast-iron stove, hanging pots, and a wooden pantry.",
+  "exits": ["Dining Room", "Servant's Quarters", "Cellar"],
+  "image": "kitchen/illustration.jpg"
+}

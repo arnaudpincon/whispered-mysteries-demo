@@ -1,0 +1,6 @@
+{
+  "name": "Library",
+  "description": "A grand room filled with ancient tomes, dusty manuscripts, and a rolling ladder.",
+  "exits": ["Main Salon", "Master's Study"],
+  "image": "library/illustration.jpg"
+}

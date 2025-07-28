@@ -1,0 +1,13 @@
+{
+  "name": "Guest's Bedroom",
+  "description": "A room with dark oak furniture, a hunting rifle mounted on the wall, and a leather armchair.",
+  "exits": [
+    "Landing",
+    "Judith's Bedroom",
+    "Edgar's Bedroom",
+    "Margarett's Bedroom",
+    "Grand Bathroom",
+    "Master Bedroom"
+  ],
+  "image": "guest_bedroom/illustration.jpg"
+}

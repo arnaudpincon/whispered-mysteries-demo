@@ -1,0 +1,6 @@
+{
+  "name": "Main Hall",
+  "description": "A grand hall with a sweeping staircase, a crystal chandelier, and dark wooden paneling.",
+  "exits": ["Main Salon", "Dining Room", "Landing", "Stable"],
+  "image": "main_hall/illustration.jpg"
+}

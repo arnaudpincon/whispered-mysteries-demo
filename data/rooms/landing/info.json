@@ -1,0 +1,15 @@
+{
+  "name": "Landing",
+  "description": "A spacious landing with a view of the entrance hall below, leading to various bedrooms.",
+  "exits": [
+    "Main Hall",
+    "Judith's Bedroom",
+    "Edgar's Bedroom",
+    "Margarett's Bedroom",
+    "Guest's Bedroom",
+    "Grand Bathroom",
+    "Master Bedroom",
+    "Attic"
+  ],
+  "image": "landing/illustration.jpg"
+}

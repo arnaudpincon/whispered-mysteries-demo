@@ -1,0 +1,6 @@
+{
+  "name": "Main Salon",
+  "description": "A lavishly furnished room with velvet sofas, a marble fireplace, and a grand piano.",
+  "exits": ["Main Hall", "Library", "Master's Study"],
+  "image": "main_salon/illustration.jpg"
+}

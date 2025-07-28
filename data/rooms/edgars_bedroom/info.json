@@ -1,0 +1,13 @@
+{
+  "name": "Edgar's Bedroom",
+  "description": "A refined bedroom with dark wooden furniture, an armchair, and a writing desk.",
+  "exits": [
+    "Landing",
+    "Judith's Bedroom",
+    "Margarett's Bedroom",
+    "Guest's Bedroom",
+    "Grand Bathroom",
+    "Master Bedroom"
+  ],
+  "image": "edgars_bedroom/illustration.jpg"
+}

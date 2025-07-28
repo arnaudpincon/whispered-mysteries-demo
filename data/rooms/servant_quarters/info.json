@@ -1,0 +1,6 @@
+{
+  "name": "Servant's Quarters",
+  "description": "A modest bedroom with a simple bed, a wooden chest, and a small bedside table.",
+  "exits": ["Kitchen", "Stable"],
+  "image": "servant_quarters/illustration.jpg"
+}

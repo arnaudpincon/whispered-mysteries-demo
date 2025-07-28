@@ -1,0 +1,13 @@
+{
+  "name": "Master Bedroom",
+  "description": "A luxurious bedroom featuring a four-poster bed, a dressing table, and heavy drapes.",
+  "exits": [
+    "Landing",
+    "Judith's Bedroom",
+    "Edgar's Bedroom",
+    "Margarett's Bedroom",
+    "Guest's Bedroom",
+    "Grand Bathroom"
+  ],
+  "image": "master_bedroom/illustration.jpg"
+}

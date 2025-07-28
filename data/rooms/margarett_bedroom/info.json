@@ -1,0 +1,13 @@
+{
+  "name": "Margarett's Bedroom",
+  "description": "An elegant bedroom with pastel-colored walls, a vanity table, and lace curtains.",
+  "exits": [
+    "Landing",
+    "Judith's Bedroom",
+    "Edgar's Bedroom",
+    "Guest's Bedroom",
+    "Grand Bathroom",
+    "Master Bedroom"
+  ],
+  "image": "margarett_bedroom/illustration.jpg"
+}
