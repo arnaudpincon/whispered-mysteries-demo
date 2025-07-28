@@ -1,6 +1,8 @@
 # 🕵️‍♂️ AI Detective Game - Whispered Mysteries
 
-[![Murder at Blackwood Manor Trailer](https://github.com/arnaudpincon/whispered-mysteries-demo/blob/main/data/narratives/images/intro3.jpg)](https://www.youtube.com/watch?v=W_NSv6taQ00)
+<a href="https://www.youtube.com/watch?v=W_NSv6taQ00" target="_blank">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/W_NSv6taQ00" alt="Murder at Blackwood Manor Trailer" width="800"/>
+</a>
 
 **⚠️ Experimental Game - Work in Progress ⚠️**
 
