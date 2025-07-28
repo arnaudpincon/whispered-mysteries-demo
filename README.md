@@ -36,7 +36,7 @@ _Note: This is an experimental project with ongoing development. You may encount
 1. **Clone the repository**:
 
 ```bash
-git clone <repository>
+git clone https://github.com/arnaudpincon/whispered-mysteries-demo.git
 cd whispered-mysteries-demo
 ```
 
@@ -87,7 +87,7 @@ python main.py
 1. **Clone and configure**:
 
 ```bash
-git clone <repository>
+git clone https://github.com/arnaudpincon/whispered-mysteries-demo.git
 cd whispered-mysteries-demo
 # Create .env file (same as above)
 ```
