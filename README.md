@@ -1,8 +1,6 @@
 # 🕵️‍♂️ AI Detective Game - Whispered Mysteries
 
-<a href="https://www.youtube.com/watch?v=W_NSv6taQ00" target="_blank">
-  <img src="https://markdown-videos-api.jorgenkh.no/youtube/W_NSv6taQ00" alt="Murder at Blackwood Manor Trailer" width="800"/>
-</a>
+![Screenshot of Murder at Blackwood Manor](https://github.com/arnaudpincon/whispered-mysteries-demo/blob/main/data/narratives/images/intro3.jpg)
 
 **⚠️ Experimental Game - Work in Progress ⚠️**
 
@@ -11,6 +9,8 @@ An interactive detective game powered by Azure OpenAI where you solve a murder m
 _Note: This is an experimental project with ongoing development. You may encounter bugs and features are continuously being improved._
 
 **Currently supports Azure OpenAI only.** Support for other AI providers (Claude, etc.) is planned for future releases.
+
+[▶️ View trailer on YouTube](https://www.youtube.com/watch?v=W_NSv6taQ00)
 
 ## 🎮 Game Features
 
