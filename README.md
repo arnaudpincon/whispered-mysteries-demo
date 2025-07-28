@@ -37,7 +37,7 @@ _Note: This is an experimental project with ongoing development. You may encount
 
 ```bash
 git clone <repository>
-cd ai-detective-game
+cd whispered-mysteries-demo
 ```
 
 2. **Create and activate virtual environment** (recommended):
@@ -88,15 +88,15 @@ python main.py
 
 ```bash
 git clone <repository>
-cd ai-detective-game
+cd whispered-mysteries-demo
 # Create .env file (same as above)
 ```
 
 2. **Build and run**:
 
 ```bash
-docker build -t ai-detective-game .
-docker run -d -p 7860:7860 --env-file .env ai-detective-game
+docker build -t whispered-mysteries-demo .
+docker run -d -p 7860:7860 --env-file .env whispered-mysteries-demo
 ```
 
 ### Access the Game
@@ -128,7 +128,7 @@ docker run -d -p 7860:7860 --env-file .env ai-detective-game
 ## 🏗️ Architecture
 
 ```
-ai-detective-game/
+whispered-mysteries-demo/
 ├── ai_engine/          # AI processing with Azure OpenAI
 │   ├── processors/     # Specialized AI handlers (character, command, story, theory)
 │   ├── cache/          # Session-based response caching
