@@ -22,20 +22,40 @@ _Note: This is an experimental project with ongoing development. You may encount
 
 ### Prerequisites
 
-- Python 3.10+
+- Python 3.10+ (Python 3.13 recommended)
 - Azure OpenAI access (currently the only supported AI provider)
 
-### Setup
+### Installation Options
 
-1. **Clone and install**:
+#### Option 1: Direct Installation
+
+1. **Clone the repository**:
 
 ```bash
 git clone <repository>
 cd ai-detective-game
+```
+
+2. **Create and activate virtual environment** (recommended):
+
+```bash
+# Create virtual environment
+python -m venv .venv
+
+# Activate it
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+```
+
+3. **Install dependencies**:
+
+```bash
 pip install -r requirements.txt
 ```
 
-2. **Configure environment**:
+4. **Configure environment**:
    Create `.env` file:
 
 ```env
@@ -47,18 +67,42 @@ API_VERSION="2023-03-15-preview"
 
 # Optional - Game Settings
 LANGUAGE=english
-DEV_MODE=false
+DEV_MODE=true
 AI_CACHE_ENABLED=true
 TELEPORTATION_MODE=false
 ```
 
-3. **Run the game**:
+5. **Run the game**:
 
 ```bash
 python main.py
 ```
 
-Access at: http://localhost:7860
+#### Option 2: Docker Deployment
+
+1. **Clone and configure**:
+
+```bash
+git clone <repository>
+cd ai-detective-game
+# Create .env file (same as above)
+```
+
+2. **Build and run**:
+
+```bash
+docker build -t ai-detective-game .
+docker run -d -p 7860:7860 --env-file .env ai-detective-game
+```
+
+### Access the Game
+
+- Access at: http://localhost:7860 (Dev Mode true) / http://localhost:8000 (Dev Mode false)
+- Launches Gradio directly for best user experience
+- Add `--debug` for detailed logging
+- Add `--share` for public link
+
+> **Note:** Set `DEV_MODE=false` in `.env` for production deployment. For local play, keep `DEV_MODE=true`.
 
 ## 🎯 How to Play
 
@@ -107,8 +151,16 @@ ai-detective-game/
 
 ### Development Mode
 
+Set in your `.env` file:
+
+```env
+DEV_MODE=true
+```
+
+Then run with:
+
 ```bash
-DEV_MODE=true python main.py --debug
+python main.py --debug
 ```
 
 - Enables detailed logging
@@ -152,14 +204,6 @@ TELEPORTATION_MODE=true    # Allow movement to any room
 - **Reputation Tracking**: Your behavior affects how NPCs react
 - **Dynamic Responses**: AI adapts to your investigation style
 - **Multi-language AI**: AI responds in your preferred language (UI stays in English)
-
-## 🐳 Docker Deployment
-
-```bash
-# Build and run
-docker build -t ai-detective-game .
-docker run -d -p 7860:7860 --env-file .env ai-detective-game
-```
 
 ## 📝 API Endpoints
 
